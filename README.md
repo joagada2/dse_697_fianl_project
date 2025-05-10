@@ -1,4 +1,6 @@
-# CLASSIFICATION SYSTEM FOR PREDICTING OUTCOME IN PATIENCE WITH MYOCARDIAL INFARCTION
+# CONVERSATIONAL TAG AGENT FOR WEB CONTENT INTERACTION AND NAVIGATION
+
+## INTRODUCTION/MOTIVATION
 LLMs are increasingly becoming preferred option for accessing publicly available information through natural language interface. LLMs exceed expectation  excel in language tasks but they are parametric models whose responses are based on probability and hence prone to hallucination. Also, LLMs are purged of updated knowledge due to their knowledge cut off on the day they are trained. With this, LLM is not a good option for website visitors from countries around the world search around the over 19,000 url from both the main domain and sub domain of UTK website. In this project, we build a RAG system that will help UTK Website visitors to interact with information on UTK website through a web interface. To achieve this, we craw the utk.edu and scraped 19526 urls, build and retrieval system with the data so that the generator which is an LLM generate response only based on context provided from the knowledge base.
 ## PROJECT OBJECTIVE
 There are over 19,000 pages from the main domain and sub-domain of the UTK website (utk.edu). Visitors from around the world scan through pages of this website every day looking from desired information. Most time, people need just a sentence to get the right information, but they had to scan through pages and read irrelevant content to get the information they need. The objective of this project is to build a RAG based chatbot through which website visitors can access information from the website without having to scan through different pages or reading irrelevant contents.
@@ -11,7 +13,7 @@ There are over 19,000 pages from the main domain and sub-domain of the UTK websi
  - The backend (FastAPI) was containerized and deployed deployed on AWS EC2 Server
  - Frontend was also build and deployed to another EC2 Server
  - The deployment profess was automated using GitHub Action CI/CD Pipeline
-## Tools Used for This Project
+## TOOLS USED IN THIS PROJECT
  - Programming Language - Python
  - Vector Embedding – Facebook DPR
  - Vector Database – Pinecone​
@@ -25,10 +27,15 @@ There are over 19,000 pages from the main domain and sub-domain of the UTK websi
  - Rendering of Webpage - Nginx
  - COntainerization - Docker
  - CI/CD - Github Action
-## WorkFlow Diagram
+## WORKFLOW DIAGRAM
  - 
 ![image](https://github.com/user-attachments/assets/11cbe63c-3afc-4ea1-b6b3-aee478c916c8)
 
+## REULT
+The result for this project is an end to end RAG application we called UTKAsk
+## APPLICATION LINKS
+ - Frontend [here](http://3.144.96.138/)
+ - Backend [here](http://3.143.23.19:8000/docs)
 
 
 
