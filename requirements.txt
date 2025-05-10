@@ -1,0 +1,11 @@
+pinecone-client==3.0.1
+langchain-community==0.0.29
+langchain-openai==0.0.8
+langchain-core==0.1.23
+openai==1.12.0
+fastapi==0.104.1
+python-dotenv==1.0.0
+boto3==1.28.62
+unstructured==0.10.30
+uvicorn==0.24.0.post1
+pinecone
