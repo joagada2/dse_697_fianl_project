@@ -38,7 +38,7 @@ The result for this project is an end to end RAG application we called UTKAsk
  - Backend [here](http://3.143.23.19:8000/docs)
 ## How to Run The Project
  - Clone this github repo by running git clone https://github.com/joagada2/dse_697_fianl_project.git
-   <pre> <code>```https://github.com/joagada2/dse_697_fianl_project.git ``` </code> </pre>
+   <pre> <code> https://github.com/joagada2/dse_697_fianl_project.git </code> </pre>
  - Create a DynamoDB Table and note the table's name
  - Enter the Table in the Webscraper script in the repo
 
