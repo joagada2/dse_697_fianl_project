@@ -1,0 +1,17 @@
+langchain-openai==0.1.25
+langchain-core==0.2.43
+openai==1.68.2
+fastapi==0.115.12
+python-dotenv==1.0.1
+boto3==1.37.21
+unstructured==0.11.8
+uvicorn==0.33.0
+pinecone
+transformers==4.46.3
+redis==5.2.1
+torch==2.4.1
+langchain==0.2.17
+
+
+
+

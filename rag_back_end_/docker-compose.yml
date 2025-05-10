@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  # Redis container
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data            # keeps Redis data across restarts
+
+  # FastAPI container (built locally)
+  web:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - redis
+    ports:
+      - "8000:80"                   # EC2 port 8000 → container port 80
+    env_file:
+      - .env                        # load all secrets in one shot
+    environment:
+      # only vars the app *really* needs to know internally
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_URL: redis://redis:6379/0
+
+volumes:
+  redis_data:
