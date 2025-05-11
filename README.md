@@ -1,4 +1,4 @@
-# CONVERSATIONAL TAG AGENT FOR WEB CONTENT INTERACTION AND NAVIGATION
+# CONVERSATIONAL RAG AGENT FOR WEB CONTENT INTERACTION AND NAVIGATION
 
 ## INTRODUCTION/MOTIVATION
 LLMs are increasingly becoming preferred option for accessing publicly available information through natural language interface. LLMs exceed expectation  excel in language tasks but they are parametric models whose responses are based on probability and hence prone to hallucination. Also, LLMs are purged of updated knowledge due to their knowledge cut off on the day they are trained. With this, LLM is not a good option for website visitors from countries around the world search around the over 19,000 url from both the main domain and sub domain of UTK website. In this project, we build a RAG system that will help UTK Website visitors to interact with information on UTK website through a web interface. To achieve this, we craw the utk.edu and scraped 19526 urls, build and retrieval system with the data so that the generator which is an LLM generate response only based on context provided from the knowledge base.
