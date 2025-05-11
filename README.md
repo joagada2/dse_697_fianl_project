@@ -27,7 +27,7 @@ There are over 19,000 pages from the main domain and sub-domain of the UTK websi
  - Rendering of Webpage - Nginx
  - COntainerization - Docker
  - CI/CD - Github Action
-## WORKFLOW DIAGRAM
+## WORKFLOW DIAGRAM/RAG ARCHITECTURE
  - 
 ![image](https://github.com/user-attachments/assets/11cbe63c-3afc-4ea1-b6b3-aee478c916c8)
 
