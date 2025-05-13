@@ -1,4 +1,4 @@
-# CONVERSATIONAL RAG AGENT FOR WEB CONTENT INTERACTION AND NAVIGATION
+p# CONVERSATIONAL RAG AGENT FOR WEB CONTENT INTERACTION AND NAVIGATION
 
 ## INTRODUCTION/MOTIVATION
 LLMs are increasingly becoming preferred option for accessing publicly available information through natural language interface. LLMs exceed expectation  excel in language tasks but they are parametric models whose responses are based on probability and hence prone to hallucination. Also, LLMs are purged of updated knowledge due to their knowledge cut off on the day they are trained. With this, LLM is not a good option for website visitors from countries around the world search around the over 19,000 url from both the main domain and sub domain of UTK website. In this project, we build a RAG system that will help UTK Website visitors to interact with information on UTK website through a web interface. To achieve this, we craw the utk.edu and scraped 19526 urls, build and retrieval system with the data so that the generator which is an LLM generate response only based on context provided from the knowledge base.
@@ -15,7 +15,7 @@ There are over 19,000 pages from the main domain and sub-domain of the UTK websi
  - The deployment profess was automated using GitHub Action CI/CD Pipeline
 ## TOOLS USED IN THIS PROJECT
  - Programming Language - Python
- - Vector Embedding – Facebook DPR
+ - Vector Embedding – Open Ai
  - Vector Database – Pinecone​
  - Backend – FastAPI
  - Frontend – React​
@@ -31,7 +31,7 @@ There are over 19,000 pages from the main domain and sub-domain of the UTK websi
  - 
 ![image](https://github.com/user-attachments/assets/11cbe63c-3afc-4ea1-b6b3-aee478c916c8)
 
-## REULT
+## RESULT
 The result for this project is an end to end RAG application we called UTKAsk
 ## APPLICATION LINKS
  - Frontend [here](http://3.144.96.138/)
