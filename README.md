@@ -32,7 +32,7 @@ There are over 19,000 pages from the main domain and sub-domain of the UTK websi
 ![image](https://github.com/user-attachments/assets/11cbe63c-3afc-4ea1-b6b3-aee478c916c8)
 
 ## RESULT
-The result for this project is an end to end RAG application we called UTKAsk
+The result for this project is an end to end RAG application we called UTKAsk which achieves 75% accuracy for recall@5  on retrieval performance.
 ## APPLICATION LINKS
  - Frontend [here](http://3.144.96.138/)
  - Backend [here](http://3.143.23.19:8000/docs)
