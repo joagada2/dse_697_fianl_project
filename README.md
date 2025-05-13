@@ -25,7 +25,7 @@ There are over 19,000 pages from the main domain and sub-domain of the UTK websi
  - Cloud Serve - AWS EC2
  - Query Cache Storage - Redis
  - Rendering of Webpage - Nginx
- - COntainerization - Docker
+ - Containerization - Docker
  - CI/CD - Github Action
 ## WORKFLOW DIAGRAM/RAG ARCHITECTURE
  - 
